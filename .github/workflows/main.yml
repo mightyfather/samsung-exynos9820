@@ -58,7 +58,7 @@ jobs:
                        name="Cruel-selinux-permissive"        \
                        toolchain=$TOOLCHAIN      \
                        +always_permit            \
-                       +magisk                   \
+                       +magisk=v8.0              \
                        +nohardening              \
                        +ttl                      \
                        +wireguard                \
